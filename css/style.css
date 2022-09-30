@@ -2,10 +2,11 @@ body {
   background-color: #96a8c5;
 }
 
-h1 {
+.mdl-layout__header-row { 
+  background-color: #7f83ad;
   color: #03084f;
-  padding: 10px;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 h4 {
@@ -19,7 +20,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 15%;
-  height: 15%;
+  height: 37%;
 }
 
 p {
