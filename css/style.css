@@ -2,7 +2,7 @@ body {
   background-color: #96a8c5;
 }
 
-.mdl-layout__header-row {
+.mdl-layout__header-row { 
   background-color: #7f83ad;
   color: #03084f;
   align-items: center;
