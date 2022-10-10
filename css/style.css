@@ -1,12 +1,24 @@
+/* Created by: Ekaterina
+* Created on: Sep 2022
+* This file contains the CSS for index.html
+*/
+
 body {
   background-color: #96a8c5;
 }
 
-.mdl-layout__header-row {
+.mdl-layout__header-row { 
   background-color: #7f83ad;
   color: #03084f;
   align-items: center;
   justify-content: center;
+}
+
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+.mdl-ripple {
+  background: #000;
+  opacity: 0.001;
 }
 
 h4 {
